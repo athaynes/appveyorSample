@@ -36,11 +36,11 @@ before_deploy:
 
 deploy:
     - provider: Environment
-        name: Test PS Gallery
+        name: 'Test PS Gallery'
         on:
             branch: master
 
     - provider: Environment
-        name: Test PS Gallery
+        name: 'Test PS Gallery'
         on:
             appveyor_repo_tag: true
