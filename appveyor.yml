@@ -4,12 +4,12 @@
 
 version: 1.0.0.{build}
 install:
-    - git clone https://github.com/PowerShell/DscResource.Tests
-    - git clone https://github.com/Microsoft/PowerStig.Tests
-    - pwsh: Write-Verbose -Message "PowerShell version $($PSVersionTable.PSVersion)" -Verbose
-    - pwsh: Import-Module "$env:APPVEYOR_BUILD_FOLDER\DscResource.Tests\AppVeyor.psm1"
-    - pwsh: Import-Module "$env:APPVEYOR_BUILD_FOLDER\PowerStig.Tests\PowerStig.Tests.psd1"
-    - pwsh: Invoke-AppveyorInstallTask
+  - git clone https://github.com/PowerShell/DscResource.Tests
+  - git clone https://github.com/Microsoft/PowerStig.Tests
+  - pwsh: Write-Verbose -Message "PowerShell version $($PSVersionTable.PSVersion)" -Verbose
+  - pwsh: Import-Module "$env:APPVEYOR_BUILD_FOLDER\DscResource.Tests\AppVeyor.psm1" -Verbose
+  - pwsh: Import-Module "$env:APPVEYOR_BUILD_FOLDER\PowerStig.Tests\PowerStig.Tests.psd1" -Verbose
+  - pwsh: Invoke-AppveyorInstallTask
 
 #---------------------------------#
 #      build configuration        #
@@ -22,8 +22,7 @@ build: false
 #---------------------------------#
 
 test_script:
-    - pwsh: |
-        Invoke-AppveyorTestScriptTask -CodeCoverage -CodeCovIo -ExcludeTag @()
+  - pwsh: Invoke-AppveyorTestScriptTask -CodeCoverage -CodeCovIo -ExcludeTag @()
 
 #---------------------------------#
 #      deployment configuration   #
@@ -31,8 +30,7 @@ test_script:
 
 # scripts to run before deployment
 before_deploy:
-    - pwsh: |
-        PowerStig.Tests\Invoke-AppveyorAfterTestTask
+  - pwsh: PowerStig.Tests\Invoke-AppveyorAfterTestTask
 
 deploy:
   - provider: Environment
