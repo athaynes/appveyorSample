@@ -1,0 +1,18 @@
+[
+    {
+        "src": "appveyorSample.psd1",
+        "target": ""
+    },
+    {
+        "src": "appveyorSample.psm1",
+        "target": ""
+    },
+    {
+        "src": "README.md",
+        "target": ""
+    },
+    {
+        "src": "LICENSE*",
+        "target": ""
+    }
+]
