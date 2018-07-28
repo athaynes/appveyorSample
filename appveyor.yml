@@ -8,7 +8,7 @@ install:
     - git clone https://github.com/Microsoft/PowerStig.Tests
     - ps: Write-Verbose -Message "PowerShell version $($PSVersionTable.PSVersion)" -Verbose
     - ps: Import-Module "$env:APPVEYOR_BUILD_FOLDER\DscResource.Tests\AppVeyor.psm1"
-    - ps: Import-Module "$env:APPVEYOR_BUILD_FOLDER\DscResource.Tests\PowerStig.Tests.psd1"
+    - ps: Import-Module "$env:APPVEYOR_BUILD_FOLDER\PowerStig.Tests\PowerStig.Tests.psd1"
     - ps: Invoke-AppveyorInstallTask
 
 #---------------------------------#
