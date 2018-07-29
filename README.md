@@ -4,6 +4,8 @@
 
 ### Unreleased
 
+### 1.1.3.0
+
 Added more new stuff
 
 ### 1.1.2.0
