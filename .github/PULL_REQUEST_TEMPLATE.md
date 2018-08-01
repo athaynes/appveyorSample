@@ -1,7 +1,4 @@
----
-name: Pull Request
-about: Create a pull request to help us improve
----
+<!--
 
 Thanks for submitting a Pull Request (PR), your contribution is greatly appreciated!
 
@@ -10,6 +7,7 @@ If this is a breaking change, then also prefix the PR title with 'BREAKING CHANG
 
 To aid reviewers in reviewing and merging your PR, please take the time to run through the below checklist.
 Change to [x] for each task in the task list that applies to this PR.
+-->
 
 **Pull Request (PR) description:**
 
