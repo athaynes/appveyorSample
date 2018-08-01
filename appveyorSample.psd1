@@ -7,7 +7,7 @@
 RootModule = 'appveyorSample.psm1'
 
 # Version number of this module.
-ModuleVersion = '1.1.3.0'
+ModuleVersion = '1.2.0.0'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -102,7 +102,7 @@ PrivateData = @{
         # IconUri = ''
 
         # ReleaseNotes of this module
-        ReleaseNotes = 'Added more new stuff'
+        ReleaseNotes = 'Even more cool stuff'
 
         # Prerelease string of this module
         # Prerelease = ''
@@ -124,4 +124,3 @@ PrivateData = @{
 # DefaultCommandPrefix = ''
 
 }
-
