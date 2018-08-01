@@ -11,9 +11,16 @@ You are more than welcome to contribute to the development of PowerStig.
 Thank you to everyone that has reviewed the project and provided feedback through issues.
 We are especially thankful for those who have contributed pull requests to the code and documentation.
 
+* [@athaynes](https://github.com/athaynes) (Adam Haynes)
+
 ## Versions
 
 ### Unreleased
+
+### 1.2.2.0
+
+* Patched cool feature
+* Added new feature
 
 ### 1.2.1.0
 
