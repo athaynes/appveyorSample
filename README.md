@@ -1,5 +1,17 @@
 # appveyorSample
 
+This is a sample project using appVeyor for CI\CD
+
+## Contributing
+
+You are more than welcome to contribute to the development of PowerStig.
+
+### Contributors
+
+Thank you to everyone.
+
+* [@athaynes](https://github.com/athaynes) (Adam Haynes)
+
 ## Versions
 
 ### Unreleased
