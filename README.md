@@ -15,6 +15,8 @@ We are especially thankful for those who have contributed pull requests to the c
 
 ### Unreleased
 
+### 1.2.0.0
+
 Even more cool stuff
 
 ### 1.1.3.0
