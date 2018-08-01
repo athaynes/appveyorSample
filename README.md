@@ -17,6 +17,8 @@ We are especially thankful for those who have contributed pull requests to the c
 
 ### Unreleased
 
+### 1.2.2.0
+
 * Patched cool feature
 * Added new feature
 
